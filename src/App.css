@@ -1,0 +1,405 @@
+.App {
+  text-align: center;
+  /* App padding here */
+  /* padding: 10px;  */
+  background-color : #ffffff;
+  outline: none;
+
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* If you want to change theme of App you have to change only these variable */
+.App-primary-color {
+  color: #0158a1;
+}
+
+.App-secondory-color{
+  color: #ffffff;
+}
+
+.App-button-theme {
+  background : #01893f;
+}
+
+.App-font {
+  font: 1px;
+  font-family: arial,sans-serif;
+}
+
+.App-margin {
+  margin: 20px 15px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tab {
+  /* background-color: red; */
+  text-align: left;
+  padding: 15%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* CSS added here  */
+.btnStyle { 
+    background: green;
+    margin: 20px;
+    text-align: left;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+.radioStyle {
+  margin : '20px';
+  text-align : 'left'
+}
+
+.headerDiv {
+  background-color: #0159a1;
+  width: 100%;
+  color: white;
+  padding: 10px 0;
+}
+
+.btnRateStyle { 
+  background: #0159a1;
+  margin: 20px 20px 20px 0;
+  text-align: left;
+  width: 29%;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: none;
+  /* height: 65px; */
+}
+
+.filterFixed{
+  position: fixed;
+  bottom: 25px;
+  left: 25%;
+  
+}
+.btnFillterStyle { 
+  background: white;
+  height: 45px;
+  width: 150px;
+  text-align: center;
+  color: #0159a1;
+  border: none;
+  border-right: 1px solid #6d7077;
+  border-radius: 4px;
+  box-shadow: 5px 13px 1px #eaeaea;
+  font-size: 14pt;
+}
+
+.headingBackground {
+  position: relative;
+    top: -14px;
+    /* left: 0; */
+  background-color : #ffffff;
+
+}
+
+.btnFlight {
+  /* background: green; */
+  text-align: left;
+  height: 55px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 13pt;
+  border: none;
+}
+
+.img-responsive { 
+  width : 30px;
+  height: 30px;
+  margin: 0 15px;
+  vertical-align: middle;
+}
+
+.searchText {
+  border: none;
+  font-size: 14pt;
+  width: 80%;
+}
+
+.searchTextDate {
+  border: none;
+  font-size: 14pt;
+  width: 150px;
+
+}
+
+/* filter Page CSS */
+.filterBody { 
+  background-color: #ffffff;
+  text-align: left;
+  color: #717274;
+}
+
+.filter-page-margin{
+  margin: 20 15;
+}
+
+.filter-page-radio { 
+  margin: 20px 10px 20px 0px;
+}
+.filter-label { 
+  display: inline-block;
+  vertical-align: middle;
+  width: 75%;
+  text-align : center;
+}
+/* #e0e5ec for App background  */
+
+/* Search Page CSS */
+.hdSecodaryLbl { 
+  font-size: 10pt;
+}
+
+.btn-div { 
+  /* margin: 10px 0; */
+}
+.img-flight {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.fl-time{
+  border-bottom: 1px solid #98979b;
+  padding: 0 31px;
+  color: #98979b;
+}
+.fl-below {
+  color: #98979b;
+}
+
+.search-style{
+  text-align: left;
+  background-color: #d6dde4;
+}
+
+.search-card {
+  padding: 15px 20px; 
+  background: #fff;
+  margin-top : 10px;
+}
+
+.search-outer-style {
+  display : 'inline-block'; 
+  text-align: 'left'; 
+  width : '100%'
+}
+
+.search-data-value {
+  width : '33%'; 
+  display : 'inline-block';
+  text-align: center;
+
+}
+
+.search-data-value-se {
+  width : '33%'; 
+  display : 'inline-block';
+}
+
+/* Home CSS */
+
+.homeStyle { 
+  text-align: left;
+}
+.departure-style {
+  text-align: left;
+  border: 1px solid black;
+  border: 2px solid #d5d5d5;
+  position: relative;
+  border-radius: 5px;
+  padding: 0 0 10px 25px;
+
+}
+
+.home-outer-div {
+  text-align: left;
+  margin: 30px 15px;
+  position: relative;
+}  
+
+.home-date { 
+  text-align: left;
+  width: 46%;
+  border: 2px solid #d5d5d5;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 0 10px 25px;
+
+}
+
+.home-date2-section {
+  text-align: left;
+  border: 2px solid #d5d5d5;
+  margin-left: 8%;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 0 10px 25px;
+  width: 46%;
+}
+
+nav a {
+  width : 25%;
+  border:1px solid teal;
+}
+
+.tab {
+  padding: 0 !important;
+}
+
+/* input :focus {
+  outline: transparent;
+} */
+ 
+*:focus {
+  outline: none;
+}
+
+button:focus {outline:0;}
+
+.flight-icon {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  left: 10%;
+  top: 57px;
+  border: none;
+}
+
+.hotel-icon {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  left: 35%;
+  border: none;
+  top: 57px;
+}
+
+.car-icon {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  left: 58%;
+  border: none;
+  top: 57px;
+}
+
+.activity-icon {
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  left: 89%;
+  top: 57px;
+  border: none;
+}
+
+.filter-card {
+  padding: 5px 0;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.filterBodyOuter { 
+  background-color: #d7dde5;
+  text-align: left;
+  color: #717274;
+}
+
+.filter-div-style{
+  background-color: #d7dde5;
+}
+
+.price-lbl {
+  border-bottom: 1px solid #d7dde5;
+  padding: 0 20px 10px 20px;
+}
+
+.price-fl-btn {
+  height: 55px;
+  width: 48%;
+  font-size: 15pt;
+}
+.price-fl-btn-reset {
+  width: 48%;
+  height: 60px;
+  margin: 0 15px 0 0;
+  background-color: #ffffff;
+  color: #bbbfc0;
+  border-color: #d7d7d7;
+  font-size: 15pt;
+}
+
+.home-date-fl { 
+  text-align: left;
+  width: 48%;
+  border: 2px solid #d5d5d5;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 0 10px 25px;
+
+}
+
+.home-date2-section-fl {
+  text-align: left;
+  border: 2px solid #d5d5d5;
+  margin-left: 15px;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 0 10px 25px;
+  width: 48%;
+}
+
+label {
+  margin: 0;
+}
+
+
+  
+
+
+

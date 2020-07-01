@@ -1,0 +1,34 @@
+{"filterData": [
+    {
+      "value" : "Price (Lowest to Highest)",
+      "key" : "asc" 
+    },
+    {
+      "value" : "Price (Highest to Lowest)",
+      "key" : "desc" 
+   },
+   {
+    "value" : "Duration (Shortest to Longest)",
+    "key" : "duration-low" 
+    },
+    {
+      "value" : "Duration (Longest to Shortest)",
+      "key" : "duration-high" 
+    },
+    {
+      "value" : "Departure (Earliest to Latest)",
+      "key" : "departure" 
+    },
+    {
+      "value" : "Arrival (Earliest to Latest)",
+      "key" : "arrival" 
+    },
+    {
+      "value" : "Airlines (A to Z)",
+      "key" : "aToZ" 
+    },
+    {
+      "value" : "Airlines (Z to A)",
+      "key" : "zToA" 
+    }
+  ]}

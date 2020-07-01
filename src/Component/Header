@@ -1,0 +1,10 @@
+
+<div className="headerDiv"> 
+    <span onClick={this.actionClicked}>
+    <img src={leftArrow} className="img-responsive"/>
+
+    </span>
+    <label style={{marginLeft: '40%'}}>
+    Sort By
+    </label>
+</div>
