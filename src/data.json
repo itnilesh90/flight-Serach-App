@@ -6,7 +6,7 @@
       },
       {
         "value" : "Price (Highest to Lowest)",
-        "key" : "desc" 
+        "key" : "asc" 
      },
      {
       "value" : "Duration (Shortest to Longest)",
